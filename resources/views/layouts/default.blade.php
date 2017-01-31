@@ -1,36 +1,14 @@
-<!--
-______                            _              _                                     _
-| ___ \                          | |            | |                                   | |
-| |_/ /___ __      __ ___  _ __  | |__   _   _  | |      __ _  _ __  __ _ __   __ ___ | |
-|  __// _ \\ \ /\ / // _ \| '__| | '_ \ | | | | | |     / _` || '__|/ _` |\ \ / // _ \| |
-| |  | (_) |\ V  V /|  __/| |    | |_) || |_| | | |____| (_| || |  | (_| | \ V /|  __/| |
-\_|   \___/  \_/\_/  \___||_|    |_.__/  \__, | \_____/ \__,_||_|   \__,_|  \_/  \___||_|
-                                          __/ |
-                                         |___/
-  ========================================================
-                                           laravel-china.org
-
-  --------------------------------------------------------
-  Powered by PHPHub
--->
-
 <!DOCTYPE html>
 <html lang="zh">
 	<head>
-
 		<meta charset="UTF-8">
-
-		<title>@section('title')Laravel China 社区 - 高品质的 Laravel 和 PHP 开发者社区@show - Powered by PHPHub</title>
-
+		<title>@section('title')</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-
-		<meta name="keywords" content="php,laravel,php论坛,laravel论坛,php社区,laravel社区,laravel教程,php教程,laravel视频,php开源,php新手,php7,laravel5" />
-		<meta name="author" content="PHPHub" />
-		<meta name="description" content="@section('description') Laravel China 是国内最大的 Laravel 和 PHP 中文社区，致力于推动 Laravel，PHP7、php-fig 等 PHP 新技术，新理念在中国的发展，是国内最靠谱的 PHP 论坛。 @show" />
+		<meta name="keywords" content="口语社区,口语交流,口语交友,口语圈,口语小组" />
+		<meta name="author" content="KOUYUHUI" />
+		<meta name="description" content="@section('description') 记录、分享、成长。 @show" />
         <meta name="_token" content="{{ csrf_token() }}">
-
         <link rel="stylesheet" href="{{ cdn(elixir('assets/css/styles.css')) }}">
-
         <link rel="shortcut icon" href="{{ cdn('favicon1.png') }}"/>
 
         <script>
@@ -94,8 +72,6 @@ ______                            _              _                              
 
 		</div>
 
-
-
         <script src="{{ cdn(elixir('assets/js/scripts.js')) }}"></script>
 
 	    @yield('scripts')
@@ -109,18 +85,18 @@ ______                            _              _                              
 
 		<script>
 		// Baidu link submit
-		(function(){
-		    var bp = document.createElement('script');
-		    var curProtocol = window.location.protocol.split(':')[0];
-		    if (curProtocol === 'https') {
-		        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-		    }
-		    else {
-		        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-		    }
-		    var s = document.getElementsByTagName("script")[0];
-		    s.parentNode.insertBefore(bp, s);
-		})();
+		// (function(){
+		//     var bp = document.createElement('script');
+		//     var curProtocol = window.location.protocol.split(':')[0];
+		//     if (curProtocol === 'https') {
+		//         bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		//     }
+		//     else {
+		//         bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		//     }
+		//     var s = document.getElementsByTagName("script")[0];
+		//     s.parentNode.insertBefore(bp, s);
+		// })();
 		</script>
         @endif
 
